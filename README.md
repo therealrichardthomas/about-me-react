@@ -1,16 +1,42 @@
-# React + Vite
+# About Me React Project
+This project is a personal portfolio website designed as a single-page application to introduce the developer's personal background, interests, and professional goals. It is built using a modern React stack for performance and a smooth user experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Key Features
+- **Image Carousel Component:** A custom, reusable Card component allows users to navigate through collections of personal images (Family and Hobbies) using previous and next buttons.
+- **"Nutshell" Reveal:** Features an interactive click-to-reveal section that displays the developer's core identity and aspirations.
+- **Personal Facts Display:** A dedicated section showcases various "Random Facts" about the developer, accompanied by a related image.
+- **Social Links:** The footer provides easy access to the developer's social media profiles (Instagram and LinkedIn) using Font Awesome icons.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **Front-end Framework:** React
+- **Styling:** Tailwind CSS for rapid, utility-first styling.
+- **Build Tool:** Vite
+- **Icons:** Font Awesome
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run This Project
+**1. Clone the Repository**
+Clone the project to your local machine using the repository's SSH or HTTPS link:
 
-## React Compiler
+```
+git clone git@github.com:therealrichardthomas/about-me-react.git
+cd about-me-react
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**2. Install Dependencies**
+Install all required packages (including development dependencies) using your package manager:
 
-## Expanding the ESLint configuration
+```
+npm install
+# OR
+yarn install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**3. Run the Development Server**
+Start the local development server with reloading:
+
+```
+npm run dev
+# OR
+yarn dev
+```
+The application will typically be accessible in your browser at http://localhost:5173.
