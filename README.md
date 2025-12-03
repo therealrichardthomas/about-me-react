@@ -1,4 +1,4 @@
-# About Me React Project
+# About Me React Project (Bootcamp)
 This project is a personal portfolio website designed as a single-page application to introduce the developer's personal background, interests, and professional goals. It is built using a modern React stack for performance and a smooth user experience.
 
 ## Key Features
